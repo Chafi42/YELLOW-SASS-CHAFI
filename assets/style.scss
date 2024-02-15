@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+    >div {
+        width: 150px;
+        left: 150px;
+
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+
+
+            & li {
+                list-style-type: none;
+
+                a {
+
+                    display: flex;
+                    justify-content: space-between;
+                    padding-left: 20px;
+                    text-decoration: none;
+                    color: white;
+
+                }
+            }
+        }
+    }
+}
+
+#home {
+    color: white;
+    background-image: url('../images/bkg-hero-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+
+        h1 {
+            font-size: 64px;
+            text-align: center;
+            margin-bottom: 40px;
+
+            span {
+                color: yellow;
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        >div {
+
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            a {
+                text-align: center;
+
+                &:last-child {
+
+                    padding: 10px 30px;
+                    text-decoration: none;
+                    color: white;
+                    background-color: orange;
+                }
+
+                &:first-child {
+
+                    padding: 10px 30px;
+                    border: 1px white solid;
+                    text-decoration: none;
+                    color: white;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+
+#about {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+
+    h2 {
+        padding-bottom: 60px;
+        font-size: 40px;
+    }
+
+    p {
+        width: 60vw;
+    }
+}
+
+
+#projet {
+
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    >div {
+        margin-top: 50px;
+        display: flex;
+
+        & img {
+            width: 25%;
+        }
+
+    }
+}
+
+
+#test {
+
+
+background-image: url(../images/bkg-testimonial.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+    h2{
+        font-weight: 700;
+        padding-top: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    >div {
+    display: flex;
+    justify-content: center;
+    & img {
+        border-radius: 50%;
+        padding-bottom: 50px;
+
+    p {
+        width: 50px;
+        padding-left: 100px;
+        padding-right: 100px ;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    & section :last-child {
+        font-weight: 700;
+
+    }
+}
+}
+
+
+
+
+}
+
+
+#service {
+
+    height:100vh;
+    padding-left: 15%;
+    padding-right: 15%;
+    h2 {
+        font-size: 32px;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    p  {
+        padding-top: 5px;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        >article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30%;
+            text-align: center;
+            align-items: center;
+            
+
+            >div{
+                width: 40px;
+            }
+
+            & svg {
+                    display: flex;
+                    text-align: center;
+                    justify-content: center;
+
+            }
+
+            // le premier article
+            &:nth-child(1){
+                fill: rgb(240, 102, 60);;
+                h3{
+                    color: rgb(240, 102, 60);
+                }}
+
+                &:nth-child(2){
+                    fill: rgb(255, 174, 0);;
+                    h3{
+                        color: rgb(255, 174, 0);
+                    }}
+
+
+                
+                   &:nth-child(3){
+                       fill: violet;
+                       h3{
+                           color: violet;
+                       }
+           }
+
+        }
+        }
+        
+    }
+
+
+#news {
+background-color: blue;
+    h2 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+}

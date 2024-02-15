@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%; }
+  #header > div {
+    width: 150px;
+    left: 150px; }
+  #header nav {
+    display: flex;
+    align-items: center; }
+    #header nav ul {
+      display: flex; }
+      #header nav ul li {
+        list-style-type: none; }
+        #header nav ul li a {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 20px;
+          text-decoration: none;
+          color: white; }
+
+#home {
+  color: white;
+  background-image: url("../images/bkg-hero-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #home > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%; }
+    #home > div h1 {
+      font-size: 64px;
+      text-align: center;
+      margin-bottom: 40px; }
+      #home > div h1 span {
+        color: yellow; }
+    #home > div p {
+      text-align: center;
+      margin-bottom: 40px; }
+    #home > div > div {
+      display: flex;
+      justify-content: center;
+      gap: 10px; }
+      #home > div > div a {
+        text-align: center; }
+        #home > div > div a:last-child {
+          padding: 10px 30px;
+          text-decoration: none;
+          color: white;
+          background-color: orange; }
+        #home > div > div a:first-child {
+          padding: 10px 30px;
+          border: 1px white solid;
+          text-decoration: none;
+          color: white;
+          background-color: transparent; }
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh; }
+  #about h2 {
+    padding-bottom: 60px;
+    font-size: 40px; }
+  #about p {
+    width: 60vw; }
+
+#projet {
+  background-color: #efefef;
+  width: 100%; }
+  #projet h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px; }
+  #projet p {
+    display: flex;
+    justify-content: center; }
+  #projet > div {
+    margin-top: 50px;
+    display: flex; }
+    #projet > div img {
+      width: 25%; }
+
+#test {
+  background-image: url(../images/bkg-testimonial.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+  #test h2 {
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 50px; }
+  #test > div {
+    display: flex;
+    justify-content: center; }
+    #test > div img {
+      border-radius: 50%;
+      padding-bottom: 50px; }
+      #test > div img p {
+        width: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        padding-bottom: 50px; }
+      #test > div img section :last-child {
+        font-weight: 700; }
+
+#service {
+  height: 100vh;
+  padding-left: 15%;
+  padding-right: 15%; }
+  #service h2 {
+    font-size: 32px;
+    padding-top: 40px;
+    text-align: center; }
+  #service p {
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px; }
+  #service > div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+    #service > div > article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 30%;
+      text-align: center;
+      align-items: center; }
+      #service > div > article > div {
+        width: 40px; }
+      #service > div > article svg {
+        display: flex;
+        text-align: center;
+        justify-content: center; }
+      #service > div > article:nth-child(1) {
+        fill: #f0663c; }
+        #service > div > article:nth-child(1) h3 {
+          color: #f0663c; }
+      #service > div > article:nth-child(2) {
+        fill: #ffae00; }
+        #service > div > article:nth-child(2) h3 {
+          color: #ffae00; }
+      #service > div > article:nth-child(3) {
+        fill: violet; }
+        #service > div > article:nth-child(3) h3 {
+          color: violet; }
+
+#news {
+  background-color: blue; }
+  #news h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex; }
